@@ -5,10 +5,10 @@ Ball e;            //declare a new ball called e
 
 void setup() {
   size(800, 800);
-  b = new Ball();      //initialize b as a new object of the Ball class
-  c = new Ball();       //initialize c as a new object of the Ball class
-  d = new Ball();       //initialize d as a new object of the Ball class
-  e = new Ball();       //initialize e as a new object of the Ball class
+  b = new Ball(5,50);      //initialize b as a new object of the Ball class
+  c = new Ball(10,50);       //initialize c as a new object of the Ball class
+  d = new Ball(2,100);       //initialize d as a new object of the Ball class
+  e = new Ball(6,100);       //initialize e as a new object of the Ball class
 }
 
 void draw() {
